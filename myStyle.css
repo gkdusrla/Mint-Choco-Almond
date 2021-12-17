@@ -567,6 +567,7 @@ ul li:hover{
 
     body{
         overflow-x: hidden;
+        overscroll-behavior: contain;
     }
 
     #contents{
