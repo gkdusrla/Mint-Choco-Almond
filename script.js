@@ -122,14 +122,13 @@ function init()
     }
 
 
-//리사이즈 함수..?
+//리사이즈 함수
 window.addEventListener('resize', resizeWindow);
 
 
 function resizeWindow()
 {
     console.log("resize!!");
-    // insert reposition of imageSlider width and left.
     init();
 }
 
