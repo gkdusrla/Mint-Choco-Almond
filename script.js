@@ -109,7 +109,11 @@ if(matchMedia("screen and (max-width: 767px)").matches){
     }
 }
 
-window.onresize = function(){ document.location.reload(); };
+window.addEventListener('resize', function()
+    {
+        console.log('Resizing...');
+    }, true);
+
 
 
 
